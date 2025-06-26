@@ -14,7 +14,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 18px;
+    padding: 0px;
     border-style: solid;
     flex-grow: 1;
 }
@@ -24,7 +24,11 @@ body{
 }
 
 #title{
-    padding-top: 200px;
+    margin-top: 250px;
+    font-size: 46px;
+    align-self: stretch;
+    text-align: center;
+    background-color: gray;
 }
 
 .right{
