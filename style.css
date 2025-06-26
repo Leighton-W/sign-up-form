@@ -10,9 +10,21 @@ body{
 }
 
 .left, .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 18px;
     border-style: solid;
     flex-grow: 1;
+}
+
+.left{
+    justify-content: space-between;
+}
+
+#title{
+    padding-top: 200px;
 }
 
 .right{
