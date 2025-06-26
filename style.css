@@ -1,3 +1,14 @@
 h1{
     color: blue;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left, .right{
+    padding: 18px;
+    border-style: solid;
+}
