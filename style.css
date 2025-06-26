@@ -5,10 +5,16 @@ h1{
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
+    height: 900px;
 }
 
 .left, .right{
     padding: 18px;
     border-style: solid;
+    flex-grow: 1;
+}
+
+.right{
+    flex-grow: 2;
 }
