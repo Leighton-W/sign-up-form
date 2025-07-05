@@ -38,3 +38,11 @@ body{
 .right{
     flex-grow: 2;
 }
+
+#footer{
+    color: white;
+}
+
+a{
+    color: white;
+}
