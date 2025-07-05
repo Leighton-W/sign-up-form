@@ -32,12 +32,22 @@ body{
     src: url(Norse-Bold.otf);
 }
 
-#title{
-    margin-top: 250px;
-    font-size: 46px;
-    align-self: stretch;
+.banner{
+    display: flex;
     text-align: center;
     background-color: gray;
+}
+
+img{
+    height: 100px;
+}
+
+#logo, #title{
+    margin-top: 250px;
+}
+
+#title{
+    font-size: 46px;
     font-family: 'Norse-Bold', 'Courier New', Courier, monospace;
 }
 
