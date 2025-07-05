@@ -58,6 +58,8 @@ img{
 
 .right{
     flex-grow: 2;
+    align-items: flex-start;
+    padding-left: 50px;
 }
 
 #footer{
