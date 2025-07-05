@@ -35,16 +35,17 @@ body{
 .banner{
     display: flex;
     text-align: center;
-    background-color: gray;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 1em 0;
+
 }
 
 img{
     height: 100px;
 }
 
-#logo, #title{
-    margin-top: 250px;
-}
 
 #title{
     font-size: 46px;
