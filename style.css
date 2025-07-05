@@ -27,12 +27,18 @@ body{
     position: relative;
 }
 
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(Norse-Bold.otf);
+}
+
 #title{
     margin-top: 250px;
     font-size: 46px;
     align-self: stretch;
     text-align: center;
     background-color: gray;
+    font-family: 'Norse-Bold', 'Courier New', Courier, monospace;
 }
 
 .right{
